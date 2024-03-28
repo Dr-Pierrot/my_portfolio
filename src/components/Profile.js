@@ -173,7 +173,7 @@ const Profile = () => {
         sx={{ background: "#30322F" }}
         onClick={handleDownload}
       >
-        <Typography fontFamily={"monospace"}>View CV</Typography>
+        <Typography fontFamily={"monospace"}>Download My CV</Typography>
       </Button>
     </Box>
   );

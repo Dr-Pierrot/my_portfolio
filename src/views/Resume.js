@@ -31,7 +31,12 @@ const Resume = () => {
               <Grid
                 item
                 xs={12}
-                sx={{ background: "#D3D3D3", borderRadius: 2, padding: 1 }}
+                sx={{
+                  background: "#D3D3D3",
+                  borderRadius: 2,
+                  padding: 1,
+                  "&:hover": { transform: "scale(1.01)" },
+                }}
               >
                 <Box>
                   <Typography sx={{ fontSize: 10, fontFamily: "monospace" }}>
@@ -48,7 +53,12 @@ const Resume = () => {
               <Grid
                 item
                 xs={12}
-                sx={{ background: "#D3D3D3", borderRadius: 2, padding: 1 }}
+                sx={{
+                  background: "#D3D3D3",
+                  borderRadius: 2,
+                  padding: 1,
+                  "&:hover": { transform: "scale(1.01)" },
+                }}
               >
                 <Box>
                   <Typography sx={{ fontSize: 10, fontFamily: "monospace" }}>
@@ -68,7 +78,12 @@ const Resume = () => {
               <Grid
                 item
                 xs={12}
-                sx={{ background: "#D3D3D3", borderRadius: 2, padding: 1 }}
+                sx={{
+                  background: "#D3D3D3",
+                  borderRadius: 2,
+                  padding: 1,
+                  "&:hover": { transform: "scale(1.01)" },
+                }}
               >
                 <Box>
                   <Typography sx={{ fontSize: 10, fontFamily: "monospace" }}>
@@ -85,7 +100,12 @@ const Resume = () => {
               <Grid
                 item
                 xs={12}
-                sx={{ background: "#D3D3D3", borderRadius: 2, padding: 1 }}
+                sx={{
+                  background: "#D3D3D3",
+                  borderRadius: 2,
+                  padding: 1,
+                  "&:hover": { transform: "scale(1.01)" },
+                }}
               >
                 <Box>
                   <Typography sx={{ fontSize: 10, fontFamily: "monospace" }}>
@@ -111,7 +131,12 @@ const Resume = () => {
               <Grid
                 item
                 xs
-                sx={{ background: "#D3D3D3", borderRadius: 2, padding: 1 }}
+                sx={{
+                  background: "#D3D3D3",
+                  borderRadius: 2,
+                  padding: 1,
+                  "&:hover": { transform: "scale(1.01)" },
+                }}
               >
                 <Box>
                   <Typography sx={{ fontSize: 10, fontFamily: "monospace" }}>

@@ -89,13 +89,14 @@ const About = () => {
         <Grid container gap={2} sx={{ padding: 2 }} justifyContent={"center"}>
           <Grid
             item
-            xs
+            xs={12}
+            xl={5.5}
             sx={{
               border: 2,
               borderRadius: 2,
-              borderColor: "green",
+              borderColor: "#2E312C",
               padding: 1,
-              "&:hover": { color: "white", background: "green" },
+              "&:hover": { color: "white", background: "#2E312C" },
             }}
           >
             <Box
@@ -133,13 +134,14 @@ const About = () => {
           </Grid>
           <Grid
             item
-            xs
+            xs={12}
+            xl={5.5}
             sx={{
               border: 2,
               borderRadius: 2,
-              borderColor: "green",
+              borderColor: "#2E312C",
               padding: 1,
-              "&:hover": { color: "white", background: "green" },
+              "&:hover": { color: "white", background: "#2E312C" },
             }}
             fontSize={18}
             fontFamily={"monospace"}
@@ -177,13 +179,14 @@ const About = () => {
           </Grid>
           <Grid
             item
-            xs
+            xs={12}
+            xl={5.5}
             sx={{
               border: 2,
               borderRadius: 2,
-              borderColor: "green",
+              borderColor: "#2E312C",
               padding: 1,
-              "&:hover": { color: "white", background: "green" },
+              "&:hover": { color: "white", background: "#2E312C" },
             }}
             fontSize={18}
             fontFamily={"monospace"}
@@ -221,13 +224,14 @@ const About = () => {
           </Grid>
           <Grid
             item
-            xs
+            xs={12}
+            xl={5.5}
             sx={{
               border: 2,
               borderRadius: 2,
-              borderColor: "green",
+              borderColor: "#2E312C",
               padding: 1,
-              "&:hover": { color: "white", background: "green" },
+              "&:hover": { color: "white", background: "#2E312C" },
             }}
             fontSize={18}
             fontFamily={"monospace"}

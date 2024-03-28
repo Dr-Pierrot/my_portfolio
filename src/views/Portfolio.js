@@ -35,6 +35,7 @@ const Portfolio = () => {
               alignContent: "center",
               borderRadius: 5,
               padding: 1,
+              "&:hover": { transform: "scale(1.01)" },
             }}
           >
             <Box
@@ -68,6 +69,7 @@ const Portfolio = () => {
               alignContent: "center",
               borderRadius: 5,
               padding: 1,
+              "&:hover": { transform: "scale(1.01)" },
             }}
           >
             <Box
@@ -106,6 +108,7 @@ const Portfolio = () => {
               alignContent: "center",
               borderRadius: 5,
               padding: 1,
+              "&:hover": { transform: "scale(1.01)" },
             }}
           >
             <Box
