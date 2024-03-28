@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-image: url('/src/assets/bg-bw.jpg');
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
