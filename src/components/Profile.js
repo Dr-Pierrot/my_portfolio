@@ -76,6 +76,7 @@ const Profile = () => {
             size="large"
             href="https://www.facebook.com/PierrotDKlawn/"
             target="_blank"
+            sx={{'&:hover':{transform:'scale(1.3)'}}}
           >
             <FacebookIcon />
           </IconButton>
@@ -85,6 +86,7 @@ const Profile = () => {
             size="large"
             href="https://github.com/Dr-Pierrot"
             target="_blank"
+            sx={{'&:hover':{transform:'scale(1.3)'}}}
           >
             <GitHubIcon />
           </IconButton>
@@ -94,6 +96,7 @@ const Profile = () => {
             size="large"
             href="https://www.linkedin.com/in/jaycee-capulong-9a37922b9/"
             target="_blank"
+            sx={{'&:hover':{transform:'scale(1.3)'}}}
           >
             <LinkedInIcon />
           </IconButton>
